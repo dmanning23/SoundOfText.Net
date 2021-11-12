@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>SoundOfText.Net</id>
+		<version>1.0.0</version>
+		<title>SoundOfText.Net</title>
+		<authors>dmanning23</authors>
+		<owners>dmanning23</owners>
+		<projectUrl>https://github.com/dmanning23/SoundOfText.Net</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>.Net library to access the SoundOfText API</description>
+		<releaseNotes />
+		<copyright>Copyright 2021</copyright>
+		<tags>tts</tags>
+		<dependencies>
+
+			<group targetFramework="net50">
+				<dependency id="Flurl.Http" version="3.2"/>
+			</group>
+
+		</dependencies>
+	</metadata>
+	<files>
+
+		<file src="SoundOfText.Net\bin\Release\net5.0\SoundOfText.Net.pdb" target="lib\net50\SoundOfText.Net.pdb" />
+		<file src="SoundOfText.Net\bin\Release\net5.0\SoundOfText.Net.dll" target="lib\net50\SoundOfText.Net.dll" />
+
+	</files>
+</package>
